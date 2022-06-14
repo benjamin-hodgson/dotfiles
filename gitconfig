@@ -1,0 +1,15 @@
+[alias]
+	st = status
+	co = checkout
+	aa = add -A
+	ci = commit
+	amend = commit --amend --no-edit
+	lg = log --graph --all --pretty=format:'%C(auto)%h - %C(blue)%an%C(reset)%C(auto), %ar%d %n    %s%C(reset)'
+	pr = pull --rebase
+[user]
+	name = Benjamin Hodgson
+	email = 3857587+benjamin-hodgson@users.noreply.github.com
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
