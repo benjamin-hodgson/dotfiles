@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export SHELL=$(which zsh)
+
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 ln -fs ${BASEDIR}/gitconfig ~/.gitconfig
