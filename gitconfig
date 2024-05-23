@@ -11,3 +11,5 @@
     email = 3857587+benjamin-hodgson@users.noreply.github.com
 [init]
     defaultBranch = main
+[pull]
+	rebase = true
